@@ -6,7 +6,7 @@ This program is designed to mutate a multi-FASTA file. It takes as input an FAST
 
 ## Input Files
 
-1. **influenza.fasta.gz**: This file contains the original multi-FASTA sequence of the influenza virus. To download this file, please visit the [NCBI link](https://ftp.ncbi.nlm.nih.gov/genomes/INFLUENZA/).
+1. **influenza.fna.gz**: This file contains the original multi-FASTA sequence of the influenza virus. To download this file, please visit the [NCBI link](https://ftp.ncbi.nlm.nih.gov/genomes/INFLUENZA/).
 
 2. **bed_file.bed**: This BED file contains the regions to be mutated in the FASTA file. It should be available in the current working directory.
 
@@ -17,7 +17,7 @@ Make sure these files are present in your current working directory before runni
 ## How to Use
 
 1. **Download Input Files**:
-   - Download the `influenza.fasta.gz` file from the provided NCBI link.
+   - Download the `influenza.fna.gz` file from the provided NCBI link.
    - Ensure the `bed_file.bed` is available in your current working directory.
 
 2. **Run the main.py script**:
@@ -36,4 +36,4 @@ Make sure these files are present in your current working directory before runni
 
 - Python 3.x
 
-#### Date of creation : 17 Feb 2024 | Develper : Vinit Gupta
+#### Date of creation : 17 Feb 2024 | Developer : Vinit Gupta
